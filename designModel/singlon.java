@@ -25,7 +25,7 @@ public class Danli {
  * 懒汉式单例模式
  */
 class JvmDemo01{
-    private static JvmDemo01 instance = null;
+    private volatile static JvmDemo01 instance = null;
 
     private JvmDemo01(){
 
